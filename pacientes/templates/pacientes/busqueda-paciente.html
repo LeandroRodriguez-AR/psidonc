@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda</title>
+</head>
+<body>
+<form action="{% url 'buscar' %}" method="get">
+{% csrf_token %}
+<input type="text" name ="nombre_apellido" id=" nombre_apellido">
+<input type="text" name ="Doc_identidad_numero" id=" Documento">
+<input type="text" name ="Telefono" id=" Telefono">
+<input type="text" name ="Email" id=" Email">
+
+</form>
+
+</body>
+</html>l

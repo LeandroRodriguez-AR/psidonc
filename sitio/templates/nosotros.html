@@ -1,0 +1,53 @@
+{% extends 'index.html' %}
+
+{% load static %}
+
+{% block contenido %}
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-header">
+            <h2>Nosotros</h2>
+            <p>Somos un equipo de profesionales de la psicología de Argentina que, motivados por las nuevas tendencias, decidimos crear este espacio de atención online.</p>
+          </div>
+  
+          <div class="row gy-4"> 
+            <div class="col-lg-6">
+              <h3>Desarrollamos un Conjunto de herramientas para facilitar el trabajo con lxs pacientes</h3>
+              <img src="{% static 'impact/assets/img/about.jpg' %}" class="img-fluid rounded-4 mb-4" alt="">
+              <p>Pensamos soluciones simples para simplificar las  tareas cotidianas del consultorio</p>
+              <p></p>
+            </div>
+            <div class="col-lg-6">
+              <div class="content ps-0 ps-lg-5">
+                <p class="fst-italic">
+                 herramientas que se adaptan a cada etapa de tu carrera profesional
+                </p>
+                <h3>Sistema de gestión de pacientes</h3>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Carga de datos personales.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Registro de citas y recordatorios.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Integración de agenda.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Registro de sesiones y cancelaciones.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Gestión de pagos.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Historia clinica y evolución del tratamiento.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Honorarios del profesional/Aumentos.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Red de Contencion.</li>
+                </ul>
+                <p>
+                  texto-b o texto-2 resumen de lo de arriba o dejar vacio
+                </p>
+  
+                <!-- <div class="position-relative mt-4"> 
+                  <img src="{% static 'impact/assets/img/about-2.jpg' %}" class="img-fluid rounded-4" alt="">
+                  <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>-->
+                </div> 
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End About Us Section -->
+
+{% endblock %}
